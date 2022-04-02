@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P O K E D E X</title>
+    <link rel="shortcut icon" href="https://icon-library.com/images/pokedex-icon/pokedex-icon-28.jpg">
+    <link rel="stylesheet" href="./css/Pokedex-general.css">
+    <link rel="stylesheet" href="./css/pokepanel.css">
+</head>
+<body>
+
+    <div id="fondopantalla">
+    </div>
+
+    <header>
+        <section id="logo-pokemon">
+            <img src="https://fontmeme.com/permalink/220325/6ea60ab9c8787e1ed322a956929060d2.png" alt="fuente-pokemon"></a>
+        </section>
+    </header>
+
+<section id="pokeabierto" class="pokeabierto">
+    <div class="base1">
+        <header class="header-base1">
+            <button type="submit" class="circulo-boton-search" id="boton" onclick="obtenerentrada()"></button>
+            <div class="area-buscador">
+                <input type="text" name="buscador" id="buscador" placeholder="Pokemón">
+            </div>
+        </header>
+        <div class="centro-base1">
+            <div class="contenedor-pokeimagen">
+                <div class="cuadro-pokeimagen">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/769px-Pokebola-pokeball-png-0.png" alt="Pokemon" id="pokeimg">
+                </div>
+                <div class="cuadro-char-prin">
+                    <div class="cuadro-id">ID:</div>
+                    <div class="cuadro-id" id="numpokemon"></div>
+                    <div class="cuadro-id">NOMBRE:</div>
+                    <div class="cuadro-id" id="nombpokemon"></div>
+                    <div class="cuadro-id">TIPO:</div>
+                    <div class="cuadro-id" id="tipopokemon"></div>
+                    <div class="cuadro-id">ALTURA:</div>
+                    <div class="cuadro-id" id="altpokemon"></div>
+                    <div class="cuadro-id">PESO:</div>
+                    <div class="cuadro-id" id="pesopokemon"></div>  
+                </div>
+            </div>
+        </div>
+        <footer class="footer-base1">
+            <div class="cuadro-pokecaracteristicas" id="cuad-carac">
+                <p></p>
+            </div>                
+        </footer>
+    </div>
+    <div class="base2">
+        <header class="header-base2">
+            <button type="submit" class="boton-regresar">
+                
+            </button>
+        </header>
+        <div class="centro-base2">
+            <div class="cuadro-pokeataques" id="cuad-atak">
+                <p></p>
+            </div>
+        </div>
+        <footer class="footer-base2"></footer>
+    </div>
+</section>
+
+</body>
+
+<footer>
+    <script src="./js/pokedex-func.js"></script>
+</footer>
+
+</html>

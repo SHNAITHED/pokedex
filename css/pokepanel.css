@@ -1,0 +1,209 @@
+.pokeabierto{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1120px;
+    height: 760px;
+    background-color: blue;
+    border-style: inherit;
+    display: flex;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.base1{
+    width: 550px;
+    height: 750px;
+    background-color: red;
+    border-color: black;
+    border-style: inset;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 15%;
+}
+
+.base2{
+    width: 550px;
+    height: 750px;
+    background-color: red;
+    border-color: black;
+    border-style: inset;
+    float: left;
+    border-bottom-right-radius: 15%;
+}
+
+.header-base1{
+    width: 550px;
+    height: 150px;
+    background-color: red;
+    /*border-color: black;
+    border-style: inset;*/
+    margin: 0 auto;
+    border-top-left-radius: 35%;
+}
+
+.centro-base1{
+    width: 550px;
+    height: 400px;
+    background-color: rgba(97, 83, 83, 0.486);
+    border-color: black;
+    border-style: inset;
+    bottom: 0;
+    margin: auto;
+}
+
+.footer-base1{
+    width: 550px;
+    height: 180px;
+    background-color: rgba(150, 20, 20, 0.096);
+    /*border-color: black;
+    border-style: inset;*/
+    bottom: 0;
+    margin: auto;
+    border-bottom-left-radius: 35%;
+}
+
+.header-base2{
+    width: 550px;
+    height: 100px;
+    background-color: red;
+    border-color: black;
+    border-style: inset;
+    margin: 0 auto;
+}
+
+.centro-base2{
+    width: 550px;
+    height: 440px;
+    background-color: rgba(97, 83, 83, 0.486);
+    border-color: black;
+    border-style: inset;
+    bottom: 0;
+    margin: auto;
+}
+
+.footer-base2{
+    width: 550px;
+    height: 200px;
+    background-color: rgba(150, 20, 20, 0.096);
+    /*border-color: black;
+    border-style: inset;*/
+    bottom: 0;
+    margin: auto;
+}
+
+.circulo-boton-search{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 26, 168);
+    border-color: black;
+    border-style: inset;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.circulo-boton-search:hover{
+    background-color: #0c8d9e;
+    cursor: pointer;
+}
+
+.area-buscador{
+    background-color: #a825669d;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+
+#buscador{
+    background-color: #a825669d;
+    width: 300px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.contenedor-pokeimagen{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.cuadro-pokeimagen{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+}
+
+#pokeimg{
+    width: 150px;
+    height: 150px;
+    margin: 20px 80px;
+}
+
+.cuadro-char-prin{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro-id{
+    background-color: rgb(214, 207, 207);
+    width: 110px;
+    height: 25px;
+    position: relative;
+    margin: 0px 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.cuadro-pokecaracteristicas{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 150px;
+    position: relative;
+    margin: 15px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.boton-regresar{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(4, 163, 26);
+    border-color: black;
+    border-style: inset;
+    border-radius: 15% 15% 15% 15%;
+    position: absolute;
+    margin: 20px 380px;
+}
+
+.boton-regresar:hover{
+    background-color: #17c250;
+    cursor: pointer;
+}
+
+.cuadro-pokeataques{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align:justify;
+    overflow-y: scroll;
+}

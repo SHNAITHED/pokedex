@@ -1,0 +1,26 @@
+#fondopantalla{
+    background-image:url("https://www.teahub.io/photos/full/0-7647_pokemon-wallpaper-hd.jpg");
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+
+#logo-pokemon{
+    display: flex;
+    justify-content: center;
+}
+
+.centrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*front pokedex*/
